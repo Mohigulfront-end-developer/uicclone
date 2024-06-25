@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left:  auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.background__img {
+    background-image: url(../public/main_back.webp);
+    width: 100%;   
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
